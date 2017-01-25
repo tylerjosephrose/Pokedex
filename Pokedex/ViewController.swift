@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
 	@IBAction func startStuff(_ sender: UIButton) {
-		loadAttacks()
+		loadAttacks(name: "Gen1Attacks")
+		loadAttacks(name: "Gen2Attacks")
 		for attack in Attacks {
 			print(attack.value.name, attack.value.type.rawValue, attack.value.power ?? "-", attack.value.accuracy ?? "-", attack.value.pp ?? "-", attack.value.effect)
 		}

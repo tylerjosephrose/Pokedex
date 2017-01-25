@@ -34,12 +34,3 @@ enum Types: String {
 	case Flying = "FLYING"
 	case Steel = "STEEL"
 }
-
-struct Attack {
-	var name: String
-	var type: Types
-	var power: Int?
-	var accuracy: Int?
-	var pp: Int?
-	var effect: String
-}

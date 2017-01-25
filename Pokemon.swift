@@ -19,6 +19,15 @@ struct machineLearnset {
 	var attack: Attack
 }
 
+struct Attack {
+	var name: String
+	var type: Types
+	var power: Int?
+	var accuracy: Int?
+	var pp: Int?
+	var effect: String
+}
+
 class Pokemon {
 	// Kanto 1-151, Johto 152-251, Hoenn 252-386
 	// as followed by serebii
