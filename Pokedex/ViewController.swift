@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBAction func startStuff(_ sender: UIButton) {
+		loadAttacks()
+		for attack in Attacks {
+			print(attack.value.name, attack.value.type.rawValue, attack.value.power ?? "-", attack.value.accuracy ?? "-", attack.value.pp ?? "-", attack.value.effect)
+		}
+	}
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.

@@ -1,5 +1,5 @@
 //
-//  PokemonData.swift
+//  Pokemon.swift
 //  Pokedex
 //
 //  Created by Tyler Rose on 1/25/17.
@@ -19,7 +19,10 @@ struct machineLearnset {
 	var attack: Attack
 }
 
-class PokemonData {
+class Pokemon {
+	// Kanto 1-151, Johto 152-251, Hoenn 252-386
+	// as followed by serebii
+	var pokedexNumber: Int = 000
 	var name: String = "NotARealPokemon"
 	var type: Array<Types> = [.Bug, .Dark, .Dragon, .Electric]
 	// In feet
@@ -28,7 +31,7 @@ class PokemonData {
 	var weight: Float?
 	var description: String?
 	// <level or how to evolve, pointer to next evolution stage>
-	var evolutions: Dictionary<String, PokemonData>?
+	var evolutions: Dictionary<String, Pokemon>?
 	// <Game, Location>
 	var locations: Dictionary<String, String>?
 	var weakness: Array<Types>?

@@ -14,35 +14,32 @@ enum Region {
 	case Hoenn
 }
 
-enum Types {
-	case Normal
-	case Water
-	case Fire
-	case Grass
-	case Ice
-	case Electric
-	case Ground
-	case Rock
-	case Psychic
-	case Ghost
-	case Dark
-	case Poison
-	case Dragon
-	case Bug
-	case Fairy
-	case Fighting
-	case Flying
-	case Steel
+enum Types: String {
+	case Normal = "NORMAL"
+	case Water = "WATER"
+	case Fire = "FIRE"
+	case Grass = "GRASS"
+	case Ice = "ICE"
+	case Electric = "ELECTRIC"
+	case Ground = "GROUND"
+	case Rock = "ROCK"
+	case Psychic = "PSYCHIC"
+	case Ghost = "GHOST"
+	case Dark = "DARK"
+	case Poison = "POISON"
+	case Dragon = "DRAGON"
+	case Bug = "BUG"
+	case Fairy = "FAIRY"
+	case Fighting = "FIGHTING"
+	case Flying = "FLYING"
+	case Steel = "STEEL"
 }
 
 struct Attack {
-	let name: String
-	let type: Types
-	let power: Int
-	let accuracy: Int
-	let pp: Int
-}
-
-enum Attacks {
-	
+	var name: String
+	var type: Types
+	var power: Int?
+	var accuracy: Int?
+	var pp: Int?
+	var effect: String
 }
