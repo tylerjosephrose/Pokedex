@@ -8,10 +8,10 @@
 
 import Foundation
 
-enum Region {
-	case Kanto
-	case Johto
-	case Hoenn
+enum Region: String {
+	case Kanto = "Kanto"
+	case Johto = "Johto"
+	case Hoenn = "Hoenn"
 }
 
 enum Types: String {

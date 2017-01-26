@@ -17,6 +17,8 @@
 		9AC142A31E38FBBD00269CF1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC142A21E38FBBD00269CF1 /* Data.swift */; };
 		9AC142A91E392B8C00269CF1 /* Gen1Attacks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC142A81E392B8C00269CF1 /* Gen1Attacks.txt */; };
 		9AC142AD1E394F9900269CF1 /* Gen2Attacks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC142AC1E394F9900269CF1 /* Gen2Attacks.txt */; };
+		9AC142AF1E3951CB00269CF1 /* Gen3Attacks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC142AE1E3951CB00269CF1 /* Gen3Attacks.txt */; };
+		9AC142B11E396B5800269CF1 /* Gen1Pokemon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC142B01E396B5800269CF1 /* Gen1Pokemon.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9AC142A21E38FBBD00269CF1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		9AC142A81E392B8C00269CF1 /* Gen1Attacks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gen1Attacks.txt; sourceTree = "<group>"; };
 		9AC142AC1E394F9900269CF1 /* Gen2Attacks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gen2Attacks.txt; sourceTree = "<group>"; };
+		9AC142AE1E3951CB00269CF1 /* Gen3Attacks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gen3Attacks.txt; sourceTree = "<group>"; };
+		9AC142B01E396B5800269CF1 /* Gen1Pokemon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gen1Pokemon.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		9AC142801E38EB5900269CF1 = {
 			isa = PBXGroup;
 			children = (
+				9AC142B01E396B5800269CF1 /* Gen1Pokemon.txt */,
+				9AC142AE1E3951CB00269CF1 /* Gen3Attacks.txt */,
 				9AC142AC1E394F9900269CF1 /* Gen2Attacks.txt */,
 				9AC142A81E392B8C00269CF1 /* Gen1Attacks.txt */,
 				9AC1428B1E38EB5A00269CF1 /* Pokedex */,
@@ -142,6 +148,8 @@
 				9AC142971E38EB5A00269CF1 /* LaunchScreen.storyboard in Resources */,
 				9AC142AD1E394F9900269CF1 /* Gen2Attacks.txt in Resources */,
 				9AC142A91E392B8C00269CF1 /* Gen1Attacks.txt in Resources */,
+				9AC142B11E396B5800269CF1 /* Gen1Pokemon.txt in Resources */,
+				9AC142AF1E3951CB00269CF1 /* Gen3Attacks.txt in Resources */,
 				9AC142941E38EB5A00269CF1 /* Assets.xcassets in Resources */,
 				9AC142921E38EB5A00269CF1 /* Main.storyboard in Resources */,
 			);

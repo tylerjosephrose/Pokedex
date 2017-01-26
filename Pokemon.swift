@@ -28,12 +28,12 @@ struct Attack {
 	var effect: String
 }
 
-class Pokemon {
+struct Pokemon {
 	// Kanto 1-151, Johto 152-251, Hoenn 252-386
 	// as followed by serebii
 	var pokedexNumber: Int = 000
 	var name: String = "NotARealPokemon"
-	var type: Array<Types> = [.Bug, .Dark, .Dragon, .Electric]
+	var type: Array<Types> = [.Normal]
 	// In feet
 	var height: Float?
 	// In pounds
@@ -43,10 +43,15 @@ class Pokemon {
 	var evolutions: Dictionary<String, Pokemon>?
 	// <Game, Location>
 	var locations: Dictionary<String, String>?
-	var weakness: Array<Types>?
-	var immunity: Array<Types>?
-	var resilience: Array<Types>?
-	var levelingLearnset: Array<levelLearnset>?
-	var tmHmLearnset: Array<machineLearnset>?
+	var weakness = [Types]()
+	var immunity = [Types]()
+	var resilience = [Types]()
+	var levelingLearnset = [levelLearnset]()
+	var tmHmLearnset = [machineLearnset]()
 	var originalRegion: Region?
+	
+	// need temp storage of evolution descriptions and the pokemon names until all are loaded
+	// This will be translated to evolutions after file is loaded
+	var evolDescs = [String]()
+	var evolPokes = [String]()
 }
